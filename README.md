@@ -1,3 +1,4 @@
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/fork/github/jwgdit/angular-tech-exercise)
 # AngularTechExercise
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.27.
