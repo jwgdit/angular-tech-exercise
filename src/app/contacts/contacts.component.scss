@@ -1,21 +1,16 @@
 .action-buttons {
-    padding-bottom: 20px;
-}
-
-.headers-align .mat-expansion-panel-header-description {
-    justify-content: flex-end;
-    align-items: center;
+  padding-bottom: 20px;
 }
 
 .flex-row {
-    display: flex;
-    flex-flow: row nowrap;
+  display: flex;
+  flex-flow: row nowrap;
 }
 
-.flex-row-end:extend(.flex-row){
-    justify-content: flex-end;
+.flex-row-end:extend(.flex-row) {
+  justify-content: flex-end;
 }
 
-.mat-expansion-panel-header {
-    background-color: #1976d2;
+:host {
+  width: 100%;
 }
