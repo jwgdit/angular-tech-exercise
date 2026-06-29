@@ -1,20 +1,21 @@
 .angular-logo {
-    max-width: 9.2rem;
+  max-width: 9.2rem;
 }
 
 .toolbar {
+  display: flex;
+  justify-content: space-between;
+
+  > .title,
+  > .buttons {
     display: flex;
-    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
 
-    > .title, > .buttons {
-        display: flex;
-        gap: 5px;
-        align-items: center;
-
-        > svg {
-            flex-shrink: 0;
-        }
+    > svg {
+      flex-shrink: 0;
     }
+  }
 }
 
 .content {

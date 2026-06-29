@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { Observable, of } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -10,7 +11,16 @@ export class ContactService {
 
   // The following method should return a key:value object for any static text needed for the view
   // Ex. 'form.label.title': 'Contact'
-  getMessageBundle() {}
+  getMessageBundle(): Observable<Record<string, string>> {
+    return of({
+      'form.label.title': 'Contact',
+      'form.label.name': 'Name',
+      'form.label.address': 'Address',
+      'form.label.city': 'City',
+      'form.label.state': 'State',
+      'form.label.zip': 'Zip Code',
+    });
+  }
 
   // The following method should return a list of states used in the select input
   getStates() {}
